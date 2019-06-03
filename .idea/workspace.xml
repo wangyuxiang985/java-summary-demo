@@ -13,30 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProdConsumer_BlockingQueueDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/queue/ProdConsumer_BlockingQueueDemo.java">
+    <leaf>
+      <file leaf-file-name="CallableDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/threadpool/CallableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="113">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1688#1689#0" expanded="true" />
-                <element signature="e#1738#1739#0" expanded="true" />
-                <element signature="method#myProd#0;class#MyData#0" expanded="false" />
-                <element signature="method#myCustomer#0;class#MyData#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProdConsumer_TraditionDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/queue/ProdConsumer_TraditionDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#449#458#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +68,7 @@
         <option value="$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/queue/ProdConsumer_TraditionDemo.java" />
         <option value="$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/queue/SyncAndReentrantLockDemo.java" />
         <option value="$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/queue/ProdConsumer_BlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/threadpool/CallableDemo.java" />
       </list>
     </option>
   </component>
@@ -534,6 +520,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -576,27 +564,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="summary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace_javaSummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace_javaSummary" type="462c0819:PsiDirectoryNode" />
-              <item name="summary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="summary" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace_javaSummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace_javaSummary" type="462c0819:PsiDirectoryNode" />
-              <item name="summary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="summary" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-              <item name="ProdConsumer_TraditionDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="workspace_javaSummary" type="b2602c69:ProjectViewProjectNode" />
@@ -670,8 +637,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -697,15 +662,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProdConsumer_BlockingQueueDemo">
-    <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CallableDemo">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.wyx.java.summary.queue.*" />
+          <option name="PATTERN" value="com.wyx.java.summary.threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wyx.java.summary.queue.BlockingQueueDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.wyx.java.summary.threadpool.CallableDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -882,19 +847,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SummaryApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BlockingQueueDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SynchronousQueueDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ProdConsumer_TraditionDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SyncAndReentrantLockDemo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ProdConsumer_BlockingQueueDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SynchronousQueueDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ProdConsumer_TraditionDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SyncAndReentrantLockDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ProdConsumer_BlockingQueueDemo" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CallableDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ProdConsumer_BlockingQueueDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SyncAndReentrantLockDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ProdConsumer_TraditionDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SynchronousQueueDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BlockingQueueDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CallableDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ProdConsumer_BlockingQueueDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SyncAndReentrantLockDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ProdConsumer_TraditionDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SynchronousQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -921,16 +886,16 @@
       <workItem from="1558966684822" duration="2905000" />
       <workItem from="1559137655393" duration="1815000" />
       <workItem from="1559382979414" duration="3587000" />
-      <workItem from="1559463881240" duration="11621000" />
+      <workItem from="1559463881240" duration="11708000" />
+      <workItem from="1559568623580" duration="1788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60547000" />
+    <option name="totallyTimeSpent" value="62422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -940,13 +905,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27027026" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31756756" sideWeight="0.4924357" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31756756" sideWeight="0.4924357" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25675675" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3581081" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -996,17 +961,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/lock/ReenterLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/lock/SpinLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1482">
@@ -1388,7 +1348,7 @@
         <state relative-caret-position="168">
           <caret line="90" column="34" lean-forward="false" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1397,21 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="1107" column="33" lean-forward="false" selection-start-line="1107" selection-start-column="20" selection-end-line="1107" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/queue/ProdConsumer_BlockingQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="method#myProd#0;class#MyData#0" expanded="false" />
-            <element signature="method#myCustomer#0;class#MyData#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1420,7 +1365,32 @@
         <state relative-caret-position="146">
           <caret line="19" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="1" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/queue/ProdConsumer_BlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1738#1739#0" expanded="false" />
+            <element signature="method#myProd#0;class#MyData#0" expanded="false" />
+            <element signature="method#myCustomer#0;class#MyData#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summary/src/main/java/com/wyx/java/summary/threadpool/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#449#458#0" expanded="true" />
           </folding>
         </state>
       </provider>
